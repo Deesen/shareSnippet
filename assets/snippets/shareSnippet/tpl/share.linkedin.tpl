@@ -1,0 +1,1 @@
+<a [+target+][+class+]href="https://www.linkedin.com/shareArticle?mini=true&url=[+url+]&title=[+title+]&summary=[+summary+]&source=[+url+]">[%share_linkedin%]</a>

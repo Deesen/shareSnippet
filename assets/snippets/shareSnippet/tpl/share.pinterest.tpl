@@ -1,0 +1,1 @@
+<a [+target+][+class+]href="https://pinterest.com/pin/create/button/?url=[+url+]&description=[+description+]&media=[+image+]">[%share_pinterest%]</a>

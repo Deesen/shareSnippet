@@ -1,0 +1,1 @@
+<a [+target+][+class+]href="https://www.xing-share.com/app/user?op=share;sc_p=xing-share;url=[+url+]">[%share_xing%]</a>

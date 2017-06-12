@@ -1,0 +1,1 @@
+<a [+target+][+class+]href="https://plus.google.com/share?url=[+url+]">[%share_googleplus%]</a>

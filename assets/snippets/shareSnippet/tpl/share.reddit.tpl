@@ -1,0 +1,1 @@
+<a [+target+][+class+]class="" href="http://www.reddit.com/submit?url=[+url+]&title=[+title+]">[%share_reddit%]</a>

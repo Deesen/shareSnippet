@@ -1,0 +1,6 @@
+ul.shareSnippet { margin:0; padding:0; list-style:none; display:flex; }
+ul.shareSnippet li { list-style:none; }
+
+ul.shareSnippet li a { color:#fff; padding:3px; }
+ul.shareSnippet li a:hover,
+ul.shareSnippet li a:focus { color:#ddd; text-decoration: none; }

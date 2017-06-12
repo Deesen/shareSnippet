@@ -1,0 +1,1 @@
+<a [+target+][+class+]href="https://vk.com/share.php?url=[+url+]&title=[+title+]&description=[+description+]&image=[+image+]&noparse=true">[%share_vk%]</a>
