@@ -36,7 +36,7 @@ class shareSnippet
 		$this->placeholders = array(
 			'title'         => urlencode($config['title']),
 			'url'           => urlencode($config['url']),
-			'summary'       => urlencode($config['summary']),
+			'summary'       => urlencode($this->handleSummary($config['summary'])),
 			'image'         => urlencode($config['image']),
 			'description'   => urlencode($config['description']),
 			'target'        => $config['target']
@@ -45,7 +45,17 @@ class shareSnippet
 		$this->getLanguage($this->config['lang']);
 		$this->getStyle($this->config['style']);
 	}
-
+	
+	public function handleSummary($string)
+	{
+		if(!$this->config['autoSummary']) return $string;
+		
+		$string = strip_tags($string);
+		$string = substr($string, 0, $this->config['summaryLength']-3).'...';
+		
+		return $string;
+	}
+	
 	public function output()
 	{
 		switch($this->config['get']) {

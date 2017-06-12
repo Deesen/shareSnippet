@@ -1,8 +1,5 @@
 ## shareSnippet 0.1
 
-### Todo
-- prepare param "autoSummary" / "summaryLength"
-
 ```
 [[shareSnippet?
 	&get=`list,button`
