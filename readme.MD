@@ -15,7 +15,7 @@
 	&rowTpl=`default.rowTpl`  
 	
 	&title=`[*pagetitle*]`
-	&url=`[~[*id*]~] (yams_doc:[*id*]`
+	&url=`[~[*id*]~] (yams_doc:[*id*])`
 	&summary=`[*introtext*]`
 	&image=`[*image_tv*]`
 	&description=`[*image_description*]`  
